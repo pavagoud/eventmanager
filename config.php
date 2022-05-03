@@ -3,7 +3,7 @@
 
 $head_hostname = "localhost";
 $head_user = "root";//change
-$head_password = "";//
+$head_password = "pavan123";//
 $head_database = "eventdb";//change
     ini_set('max_execution_time', 60);
 	$dbConnection= $db = $bd = $con = mysqli_connect($head_hostname,$head_user,$head_password,$head_database);   //create connection
