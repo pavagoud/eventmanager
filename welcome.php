@@ -10,7 +10,7 @@
 <html">
    
    <head>
-      <title>Welcome </title>
+      <title>Welcome User</title>
    </head>
     <style>
         .menuStyle
