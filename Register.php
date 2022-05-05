@@ -14,9 +14,8 @@
       
       $sql = "INSERT INTO customer(name,addr,mob,email,pass) VALUES('$myusername','$myaddress','$myMonile','$myEmail','$mypassword')";
       if ($db->query($sql) === TRUE) {
-         $message = "User Inserted";
+         $message = "Login Successful";
          echo "<script type='text/javascript'>alert('$message');</script>";
-         header("Location: index.php"); 
       }
         
       else {

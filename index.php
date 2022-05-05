@@ -45,6 +45,8 @@
             if($email=="admin@gmail.com" && $password=="Admin")
             {
                $_SESSION['Username'] = "Admin"; // Initializing Session
+               $message = "Login Successful";
+               echo "<script type='text/javascript'>alert('$message');</script>";
                header("Location: welcome.php");
             }
          }
