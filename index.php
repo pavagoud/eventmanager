@@ -88,7 +88,7 @@
       }
 
       .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/login.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/login.jpeg");
       height: 50%;
       background-position: center;
       background-repeat: no-repeat;
@@ -132,8 +132,6 @@
           <br><br><br><br>
           <div class="hero-image">
       <div class="hero-text">
-         <h1 style="font-size:50px">Welcome!</h1>
-         <p>Book Your Venue</p>
       </div>
       </div>
           <div style = "width:300px; border: solid 1px #00000 ;border-radius: 25px; " align = "left">
