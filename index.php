@@ -88,7 +88,7 @@
       }
 
       .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/login.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/login.jpg");
       height: 50%;
       background-position: center;
       background-repeat: no-repeat;
@@ -129,16 +129,11 @@
    <body bgcolor = "#FFFFFF">
 	
       <div align = "center">
-          <br><br><br><br>
-          <div class="hero-image">
-      <div class="hero-text">
-      </div>
-      </div>
-          <div style = "width:300px; border: solid 1px #00000 ;border-radius: 25px; " align = "left">
-            <div style = "background-color:#F5B041; color:#FFFFFF; padding:3px;"><b>Login</b></div>
-				
-            <div style = "margin:30px">
-               
+      <div class="hero-image">
+            <div class="hero-text">
+               <div style = "width:300px; border: solid 1px #00000 ;border-radius: 25px; " align = "left">
+                  
+                  <div style = "margin:30px">
                <form action = "" method = "post">
                   <label>User Type  :</label><br><br>
                   <select name="UserType" id="UserType" style="width:100%;height:30px;">
@@ -151,12 +146,12 @@
                </form>
                
                <div style = "font-size:11px; color:#cc0000; margin-top:10px;"></div>
-               <h5><a href="Register.php">Create Account?</a></h5>
-               <br>
+                     <h5><a href="Register.php">Create Account?</a></h5>
+                     <br>
+                  </div>
+               </div>  
             </div>
-				
          </div>
-			
       </div>
 
    </body>
