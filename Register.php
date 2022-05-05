@@ -12,15 +12,15 @@
       $myEmail=$_POST["Email"];
 
       
-      $sql = "INSERT INTO Customer(name,addr,mob,email,pass) VALUES('$myusername','$myaddress','$myMonile','$myEmail','$mypassword')";
+      $sql = "INSERT INTO customer(name,addr,mob,email,pass) VALUES('$myusername','$myaddress','$myMonile','$myEmail','$mypassword')";
       if ($db->query($sql) === TRUE) {
-         $message = "Venue Inserted";
+         $message = "User Inserted";
          echo "<script type='text/javascript'>alert('$message');</script>";
          header("Location: index.php"); 
       }
         
       else {
-         $error = "Your Login Name or Password is invalid";
+         $error = "Your Registration is invalid";
       
    }
 }
