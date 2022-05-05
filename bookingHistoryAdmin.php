@@ -79,8 +79,7 @@ if($_SESSION['Username']=="")
         {
          $now = new DateTime();
          $date = new DateTime($row['date']);
-      if($date<$now)
-      {
+      
         echo "<tr>";
         echo "<td>" . $row['Id'] . "</td>";
         echo "<td>" . $row['CustomerName'] . "</td>";
@@ -93,7 +92,7 @@ if($_SESSION['Username']=="")
         echo "<td>" . $row['total'] . "</td>";
         
         echo "</tr>";
-      }
+      
         }
         echo "</table>";
 
