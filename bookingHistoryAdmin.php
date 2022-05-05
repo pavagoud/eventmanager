@@ -1,8 +1,7 @@
 <?php
 include("config.php");
 include('session.php');
-ini_set('display_errors', 1);
-date_default_timezone_set('Europe/Istanbul');
+
 if($_SESSION['Username']=="")
    {
          $message = "Please Login";
@@ -10,7 +9,7 @@ if($_SESSION['Username']=="")
          header("Location: index.php");
    }
 ?>
-<!DOCTYPE html>
+<html>
    
    <head>
    <h5 style="text-align:right;"> <?php echo $_SESSION['Username']; ?><a href = "logout.php">  (Sign Out)</a></h5>
@@ -80,6 +79,7 @@ if($_SESSION['Username']=="")
         while($row = mysqli_fetch_array($result))
         {
          $now = new DateTime();
+         $now->setTimezone(new DateTimeZone('America/New_York'));
          $date = new DateTime($row['date']);
       if($date<$now)
       {
