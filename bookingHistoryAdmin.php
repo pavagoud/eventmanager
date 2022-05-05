@@ -59,7 +59,7 @@ if($_SESSION['Username']=="")
          
       </div>
       <?php
-        $sql = "SELECT * FROM book_event WHERE Paid=1";
+        $sql = "SELECT * FROM book_event ";
         $result = mysqli_query($db,$sql);
 
         echo "<table border='1' style='width:100%;'>
