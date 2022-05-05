@@ -111,7 +111,7 @@
 
                 <label for="VenueName"><b>Venue</b></label>
                 <?php                
-                if($r_set1 = $db->query("SELECT name,Id,money FROM Venue")){
+                if($r_set1 = $db->query("SELECT name,Id,money FROM venue")){
 
                 echo "<select  id=VenueName name=VenueName onchange=getText(this);  style='width:100%;height:30px;'>";
                 while ($row1 = $r_set1->fetch_assoc()) {
