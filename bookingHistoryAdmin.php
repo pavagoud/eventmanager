@@ -1,6 +1,7 @@
 <?php
 include("config.php");
 include('session.php');
+ini_set('display_errors', 1);
 
 if($_SESSION['Username']=="")
    {
