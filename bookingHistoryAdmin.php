@@ -9,7 +9,7 @@ if($_SESSION['Username']=="")
          header("Location: index.php");
    }
 ?>
-<html>
+<!DOCTYPE html>
    
    <head>
    <h5 style="text-align:right;"> <?php echo $_SESSION['Username']; ?><a href = "logout.php">  (Sign Out)</a></h5>
