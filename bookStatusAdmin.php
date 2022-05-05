@@ -1,6 +1,7 @@
 <?php
 include("config.php");
 include('session.php');
+date_default_timezone_set('America/New_York');
 if($_SESSION['Username']=="")
    {
          $message = "Please Login";
