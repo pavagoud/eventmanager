@@ -2,10 +2,11 @@
 include("config.php");
 include('session.php');
 ini_set('display_errors', 1);
-
+date_default_timezone_set('America/New_York');
 if($_SESSION['Username']=="")
    {
          $message = "Please Login";
+         
          echo "<script type='text/javascript'>alert('$message');</script>";
          header("Location: index.php");
    }
