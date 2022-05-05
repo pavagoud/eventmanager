@@ -27,7 +27,7 @@
       }
 
       .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/venue.jpeg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/venue.jpg");
       height: 50%;
       background-position: center;
       background-repeat: no-repeat;
@@ -61,7 +61,6 @@
       }
     </style>
    <body>
-      <h1 style="text-align:Center;">Welcome</h1>
       <h5 style="text-align:right;"> <?php echo $_SESSION['Username']; ?><a href = "logout.php">  (Sign Out)</a></h5>
       <br><br><br><br><br><br>
       <div class="hero-image">
