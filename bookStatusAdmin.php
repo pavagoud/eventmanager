@@ -90,6 +90,7 @@ if($_SESSION['Username']=="")
         echo "<td>" . $row['f_type'] . "</td>";
         echo "<td>" . $row['total'] . "</td>";
         $now = new DateTime();
+        $now->setTimezone(new DateTimeZone('America/New_York'));
         $date = new DateTime($row['date']);
         if($date<$now)
             echo "<td style='text-align:center;'>" . 'Booked' . "</td>";
