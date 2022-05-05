@@ -2,7 +2,7 @@
 include("config.php");
 include('session.php');
 ini_set('display_errors', 1);
-date.timezone = Europe/Paris;
+date_default_timezone_set('Europe/Istanbul');
 if($_SESSION['Username']=="")
    {
          $message = "Please Login";
