@@ -81,6 +81,45 @@
             border-color:#CCD1D1;
             height:20px;
          }
+         body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/login.jpg");
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      }
+
+      .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      }
+
+      .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: black;
+      background-color: #ddd;
+      text-align: center;
+      cursor: pointer;
+      }
+
+      .hero-text button:hover {
+      background-color: #555;
+      color: white;
+      }
          
         
       </style>
@@ -91,6 +130,12 @@
 	
       <div align = "center">
           <br><br><br><br>
+          <div class="hero-image">
+      <div class="hero-text">
+         <h1 style="font-size:50px">Welcome!</h1>
+         <p>Book Your Venue</p>
+      </div>
+      </div>
           <div style = "width:300px; border: solid 1px #00000 ;border-radius: 25px; " align = "left">
             <div style = "background-color:#F5B041; color:#FFFFFF; padding:3px;"><b>Login</b></div>
 				
